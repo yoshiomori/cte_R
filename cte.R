@@ -10,5 +10,5 @@ depth<-as.numeric(scan(,what=""))
 sample<-scan(file_name,what=character())
 
 # O setup_BIC.R deve estar no diretório descrito abaixo:
-source("~/Documents/setup_BIC.R")
+source("./setup_BIC.R")
 tree <- setup_BIC(sample,depth)
